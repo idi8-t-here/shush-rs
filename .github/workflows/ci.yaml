@@ -1,7 +1,7 @@
 name: ci
 on:
   push:
-    branches: [ master ]
+    branches: [ master,feat/caching_page_size ]
   pull_request:
     branches: [ master ]
 concurrency:
